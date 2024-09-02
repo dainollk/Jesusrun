@@ -47,7 +47,7 @@
             <h2>Contacto</h2>
             <p>Información de contacto para unirte al equipo o hacer preguntas.</p>
 
-            <form id="contactForm" action="https://script.google.com/macros/s/AKfycbwjrCgO_9hl9hKpTigpy0L2L0rvvsnn0_3xPR3Q9U5xHMWn7SdHJ92SIxsqTK6VE5qY_w/exec" method="post">
+            <form id="contactForm" action="https://script.google.com/macros/s/AKfycbyWsVwDOVG3wwuQlv1YOv0D5Oh3heCeI_gAqXmLlj0Nf8Jc_VYuAGppf1J5zofOwTAN/exec" method="post">
                 <label for="name">Nombre:</label>
                 <input type="text" id="name" name="name" required>
 
@@ -70,7 +70,7 @@
         function handleSubmit(event) {
             event.preventDefault();
             const formData = new FormData(event.target);
-            fetch('https://script.google.com/macros/s/AKfycbwjrCgO_9hl9hKpTigpy0L2L0rvvsnn0_3xPR3Q9U5xHMWn7SdHJ92SIxsqTK6VE5qY_w/exec', {  // Reemplaza con tu URL
+            fetch('https://script.google.com/macros/s/AKfycbyWsVwDOVG3wwuQlv1YOv0D5Oh3heCeI_gAqXmLlj0Nf8Jc_VYuAGppf1J5zofOwTAN/exec', {  // Reemplaza con tu URL
                 method: 'POST',
                 body: formData,
             })

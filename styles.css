@@ -9,7 +9,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
-    background-image: url('G:/Mi unidad/miPaginaWeb/Designer.jpeg'); /* Cambia 'images/fondo.jpg' por la ruta correcta a tu imagen */
+    background-image: url('https://github.com/dainollk/Jesusrun/blob/main/Designer.jpeg?raw=true'); /* Cambia 'images/fondo.jpg' por la ruta correcta a tu imagen */
     background-size: cover; /* Ajusta la imagen para que cubra toda la pantalla */
     background-position: center; /* Centra la imagen */
     background-attachment: fixed; /* Mantiene la imagen fija en el fondo al hacer scroll */
